@@ -1,0 +1,228 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DFD9D1;
+}
+.bg { /*sets background image on home and contact pg*/
+    background-image: url(../images/workspace.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    background-color: #E7E7E7;
+    text-align: center;
+    width: 9em;
+    padding: 15px;
+    margin: auto;
+}
+h2 {
+    background-color: #E7E7E7;
+    text-align: center;
+    width: 7em;
+    padding: 15px;
+    margin: 15px;
+}
+h3 {
+    background-color: rgba(255, 255, 255, .8);
+    color: black;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+p {
+    background-color: #F2F2F2;
+    padding: 15px;
+    margin: 15px;
+}
+ul {
+    background-color: #F2F2F2;
+    padding: 15px;
+    margin: 15px;
+}
+li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+hr { /*lines on resume*/
+    border: 2px solid black;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .8);
+    color: black;
+    font-weight: 600;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    height: 3em;
+}
+
+.navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    display: flex block;
+    flex: 100%;
+    justify-content: space-between;
+}
+
+.navbar a:hover {
+    background: white;
+    color: black;
+    transition: .8s ease;
+}
+
+.icon { /*sets icons on home pg*/
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+}
+img { /*img on about me*/
+    float: left;
+    margin-top: 59px;
+    margin-left: 25px;
+    margin-right: 15px;
+    margin-bottom: 35px;
+}
+.resume { /*entire resume div*/
+    justify-content: center;
+    max-width: 800px;
+    margin-left: 250px;
+}
+.jobs p {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+.jobs ul {
+    margin-top: 0;
+    padding-top: 5px;
+}
+.contactinfo p{
+    text-align: center;
+    max-width: 500px;
+    margin-left: 125px;
+}
+.personal p {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.links p {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+a.button {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px #E7E7E7 solid;
+    height: 40px;
+    width: 300px;
+    vertical-align: middle;
+}
+a.button:link {
+    color: cadetblue;
+    background-color: rgba(255, 255, 255, .8);
+    position: relative;
+    text-decoration: none;
+}
+a.button:active {
+    color: darkcyan;
+}
+a.button:visited {
+    color: darkorange;
+    background-color: #ffc8aa;
+}
+a.button:hover {
+    color: black;
+    background-color: #D9D9D9;
+}
+a.links:link { /*specifies links not in nav bar*/
+        color:cadetblue;
+}
+a.links:visited {
+        color: darkgreen;
+}
+a.links:hover {
+        color:darkorange;
+        text-decoration: underline;
+}
+a.links:active {
+        color:cadetblue;
+}
+header {
+    text-align: center;
+    grid-area: header;
+    text-align: center;
+}
+.writing1 {
+    grid-area: writing1;
+}
+.writing2 {
+    grid-area: writing2;
+}
+.writing3 {
+    grid-area: writing3;
+}
+.writing4 {
+    grid-area: writing4;
+}
+.writing5 {
+    grid-area: writing5
+}
+.writing6 {
+    grid-area: writing6;
+}
+.gridwrapper h2 { /*style for the h2 heading in Writing Samples pg*/
+    margin-left: 41%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.gridwrapper {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+        "header header header"
+        "writing1 writing2 writing3"
+        "writing4 writing5 writing6";
+}
+.gridwrapper p {
+    padding: 20px;
+}
+.gridwrapper h3 {
+    padding: 10px;
+    position: relative;
+    height: 80px;
+    top: 30px;
+    vertical-align: middle;
+    margin-left: 70px;
+    text-align: center;
+}
+.contact p { /*only paragraph on Contact pg*/
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 24%;
+    margin: auto;
+    background-color: transparent;
+}
