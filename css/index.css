@@ -84,6 +84,12 @@ hr { /*lines on resume*/
     transition: .8s ease;
 }
 
+.navbar a.active:not(:hover) {
+    background-color: rgba(236, 236, 236, 0.8);
+}
+.content {
+    text-align: center;
+}
 .icon { /*sets icons on home pg*/
     display: inline-block;
     text-align: center;
@@ -98,9 +104,8 @@ img { /*img on about me*/
     margin-bottom: 35px;
 }
 .resume { /*entire resume div*/
-    justify-content: center;
-    max-width: 800px;
-    margin-left: 250px;
+    margin-top: 3em;
+    height: calc(100% - 3em);
 }
 .jobs p {
     margin-bottom: 0;
@@ -225,4 +230,14 @@ header {
     left: 24%;
     margin: auto;
     background-color: transparent;
+}
+
+#name {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#name .subtitle {
+    position: absolute;
+    top: 4em;
 }
