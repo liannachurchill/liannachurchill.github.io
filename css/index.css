@@ -149,12 +149,12 @@ a.button:active {
     color: darkcyan;
 }
 a.button:visited {
-    color: darkorange;
-    background-color: #ffc8aa;
-}
-a.button:hover {
     color: black;
     background-color: #D9D9D9;
+}
+a.button:hover {
+    color: cadetblue;
+    background-color: #E7E7E7;
 }
 a.links:link { /*specifies links not in nav bar*/
         color:cadetblue;
