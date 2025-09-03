@@ -36,12 +36,12 @@ h3 {
     text-align: center;
 }
 p {
-    background-color: #F2F2F2;
+    background-color: #c7c5c3;
     padding: 15px;
     margin: 15px;
 }
 ul {
-    background-color: #F2F2F2;
+    background-color: #c7c5c3;
     padding: 15px;
     margin: 15px;
 }
@@ -244,10 +244,47 @@ header {
 .samples {
     position: relative;
     display: flex;
+    flex-direction: column;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     color: black;
     padding: 10px;
+}
+
+.samples h2 {
+    background-color: #c7c5c3;
+    text-align: left;
+    width: 7em;
+    padding: 5px;
+    margin: 10px;
+}
+
+.samples technical {
+    margin-bottom: 2rem; /* Adds space between each section */
+    padding: 2rem;
+    background-color: #c7c5c3;
+    border: 2px solid #58534b;
+}
+
+.samples academic {
+    margin-bottom: 2rem; /* Adds space between each section */
+    padding: 2rem;
+    background-color: #c7c5c3;
+    border: 2px solid #58534b;
+}
+
+.samples creative {
+    margin-bottom: 2rem; /* Adds space between each section */
+    padding: 2rem;
+    background-color: #c7c5c3;
+    border: 2px solid #58534b;
+}
+
+.samples visual {
+    margin-bottom: 2rem; /* Adds space between each section */
+    padding: 2rem;
+    background-color: #c7c5c3;
+    border: 2px solid #58534b;
 }
 
 .samples a {
@@ -256,5 +293,6 @@ header {
 }
 
 .samples a:hover {
-    color: black;
+    color: rgb(39, 39, 39);
+    font-weight: bold;
 }
