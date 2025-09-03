@@ -163,7 +163,7 @@ a.links:visited {
         color: darkgreen;
 }
 a.links:hover {
-        color:darkorange;
+        color:rgb(7, 57, 17);
         text-decoration: underline;
 }
 a.links:active {
@@ -240,4 +240,21 @@ header {
 #name .subtitle {
     position: absolute;
     top: 4em;
+}
+.samples {
+    position: relative;
+    display: flex;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    padding: 10px;
+}
+
+.samples a {
+    color: rgb(8, 105, 108);
+    font-weight: bold;
+}
+
+.samples a:hover {
+    color: black;
 }
