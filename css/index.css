@@ -254,7 +254,7 @@ header {
 .samples h2 {
     background-color: #c7c5c3;
     text-align: left;
-    width: 7em;
+    width: fit-content;
     padding: 5px;
     margin: 10px;
 }
@@ -264,6 +264,7 @@ header {
     padding: 2rem;
     background-color: #c7c5c3;
     border: 2px solid #58534b;
+    flex-wrap: wrap;
 }
 
 .samples academic {
@@ -271,6 +272,7 @@ header {
     padding: 2rem;
     background-color: #c7c5c3;
     border: 2px solid #58534b;
+    flex-wrap: wrap;
 }
 
 .samples creative {
@@ -278,6 +280,7 @@ header {
     padding: 2rem;
     background-color: #c7c5c3;
     border: 2px solid #58534b;
+    flex-wrap: wrap;
 }
 
 .samples visual {
@@ -285,6 +288,7 @@ header {
     padding: 2rem;
     background-color: #c7c5c3;
     border: 2px solid #58534b;
+    flex-wrap: wrap;
 }
 
 .samples a {
