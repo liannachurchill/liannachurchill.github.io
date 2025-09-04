@@ -232,15 +232,33 @@ header {
     background-color: transparent;
 }
 
-#name {
+.intro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    padding: 10px;
+}
+
+.intro name {
     position: relative;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
-#name .subtitle {
+
+.intro name .subtitle {
     position: absolute;
     top: 4em;
 }
+
+.intro about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .samples {
     position: relative;
     display: flex;
@@ -263,7 +281,7 @@ header {
     margin-bottom: 2rem; /* Adds space between each section */
     padding: 2rem;
     background-color: #c7c5c3;
-    border: 2px solid #58534b;
+    border: 2rem solid #58534b;
     flex-wrap: wrap;
 }
 
@@ -271,7 +289,7 @@ header {
     margin-bottom: 2rem; /* Adds space between each section */
     padding: 2rem;
     background-color: #c7c5c3;
-    border: 2px solid #58534b;
+    border: 2rem solid #58534b;
     flex-wrap: wrap;
 }
 
@@ -279,7 +297,7 @@ header {
     margin-bottom: 2rem; /* Adds space between each section */
     padding: 2rem;
     background-color: #c7c5c3;
-    border: 2px solid #58534b;
+    border: 2rem solid #58534b;
     flex-wrap: wrap;
 }
 
@@ -287,7 +305,7 @@ header {
     margin-bottom: 2rem; /* Adds space between each section */
     padding: 2rem;
     background-color: #c7c5c3;
-    border: 2px solid #58534b;
+    border: 2rem solid #58534b;
     flex-wrap: wrap;
 }
 
@@ -299,4 +317,10 @@ header {
 .samples a:hover {
     color: rgb(39, 39, 39);
     font-weight: bold;
+}
+
+.samples ul {
+    background-color: #c7c5c3;
+    padding: 5px;
+    margin: 10px;
 }
