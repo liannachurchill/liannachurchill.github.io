@@ -253,6 +253,7 @@ header {
 .about {
     display: flex;
     flex-wrap: wrap;
+    background-color: #E7E7E7;
 }
 
 .samples {
