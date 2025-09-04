@@ -277,7 +277,7 @@ header {
     margin: 10px;
 }
 
-.samples technical {
+.technical {
     margin-bottom: 2rem; /* Adds space between each section */
     padding: 2rem;
     background-color: #c7c5c3;
@@ -285,7 +285,7 @@ header {
     flex-wrap: wrap;
 }
 
-.samples academic {
+.academic {
     margin-bottom: 2rem; /* Adds space between each section */
     padding: 2rem;
     background-color: #c7c5c3;
@@ -293,7 +293,7 @@ header {
     flex-wrap: wrap;
 }
 
-.samples creative {
+.creative {
     margin-bottom: 2rem; /* Adds space between each section */
     padding: 2rem;
     background-color: #c7c5c3;
@@ -301,7 +301,7 @@ header {
     flex-wrap: wrap;
 }
 
-.samples visual {
+.visual {
     margin-bottom: 2rem; /* Adds space between each section */
     padding: 2rem;
     background-color: #c7c5c3;
